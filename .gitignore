@@ -1,0 +1,42 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos generados
+dist/
+coverage/
+
+# Archivos de configuración local
+.env
+.env.local
+
+# Archivos de registro
+*.log
+
+# Archivos de respaldo (si los tienes)
+*.bak
+*.backup
+
+# Archivos de caché
+.cache/
+/mongo
+
+# Archivos de Docker Compose
+docker-compose.override.yml
+
+# Archivos de sistema y caché de Docker
+.docker/
+.dockerignore
+
+# Archivos de dependencias de Docker Compose
+docker-compose.override.yml
+docker-compose.override.yml.example
+
+# Archivos de dependencias específicas del editor/IDE
+.idea/
+.vscode/
+
+# Otros archivos y carpetas generados
+*.pid
+*.swp
+.DS_Store
+package-lock.json
