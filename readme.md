@@ -5,10 +5,11 @@
 Para poder conectarse a la base de datos, se debe crear un archivo .env en la raíz del proyecto con las siguientes variables de entorno:
 
 ```bash
-MONGODB_URI="mongodb://localhost:27017/shortly"
+MONGODB_URI="mongodb://root:example@localhost:27017/dn-name"
 MONGO_INITDB_ROOT_USERNAME="root"
 MONGO_INITDB_ROOT_PASSWORD="example"
 MONGO_DATABASE="dn-name"
+MONGO_DATABASE_HOST="localhost"
 MONGO_DATABASE_PORT="27017"
 ```
 
